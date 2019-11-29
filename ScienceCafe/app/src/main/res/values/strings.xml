@@ -1,7 +1,5 @@
 <resources>
     <string name="app_name">ScienceCafe</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="my_events">My Events</string>
     <string name="event_detail">Event Detail</string>
@@ -10,5 +8,8 @@
     <string name="events_admin">Events</string>
     <string name="rewards_admin">Rewards</string>
     <string name="approve_admin">Approve</string>
+    <string name="news_admin">News</string>
     <string name="my_profile">My Profile</string>
+    <string name="sign_up_text">Sign up</string>
+    <string name="back_button_text">Back</string>
 </resources>

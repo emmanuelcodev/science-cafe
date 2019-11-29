@@ -1,19 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-tools:context=".RewardList">
-<!-- put whatever view group you want here instead of the FrameLayou -->
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".RewardListFragment">
 
-<FrameLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
 
-</FrameLayout>
+        <LinearLayout
+            android:id="@+id/mainView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
 
+            <LinearLayout
+                android:id="@+id/topView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
 
+                <ImageButton
+                    android:id="@+id/backButton"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/back_button_text"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/back_arrow" />
+
+                <TextView
+                    android:id="@+id/appTitle"
+                    style="@style/AppTitle"
+                    android:layout_width="127dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="105dp"
+                    android:layout_marginLeft="105dp"
+                    android:text="@string/app_name" />
+
+                <Button
+                    android:id="@+id/signButton"
+                    style="@style/TopButton"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginLeft="35dp"
+                    android:text="@string/sign_up_text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/buttons"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/eventButton"
+                    style="@style/MidButton"
+                    android:layout_width="140dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/events_admin" />
+
+                <Button
+                    android:id="@+id/rewardButton"
+                    style="@style/MidButton"
+                    android:layout_width="140dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/rewards_admin" />
+
+                <Button
+                    android:id="@+id/newsButton"
+                    style="@style/MidButton"
+                    android:layout_width="140dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/news_admin" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/titleText"
+                style="@style/RewardListTitle"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="@string/rewards_admin" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rewardList"
+            android:layout_width="399dp"
+            android:layout_height="566dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="157dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginRight="22dp"
+            android:background="@drawable/right_angle_border"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:listitem="@layout/list_item_reward" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
