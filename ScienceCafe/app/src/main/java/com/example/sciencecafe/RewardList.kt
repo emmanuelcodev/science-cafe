@@ -25,7 +25,6 @@ class RewardList : Fragment() {
 
         val rewardsList: MutableList<Reward> = this.createRewardsList()
         this.adapter = RewardAdapter(rewardsList)
-        println(this.adapter.itemCount)
         this.binding.rewardList.adapter = adapter
 
         return this.binding.root

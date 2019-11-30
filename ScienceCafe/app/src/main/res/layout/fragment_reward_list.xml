@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".RewardListFragment">
+    tools:context=".RewardList">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -87,27 +87,36 @@
 
             <TextView
                 android:id="@+id/titleText"
-                style="@style/RewardListTitle"
+                style="@style/PageTitle"
                 android:layout_width="match_parent"
                 android:layout_height="52dp"
                 android:text="@string/rewards_admin" />
         </LinearLayout>
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rewardList"
-            android:layout_width="399dp"
-            android:layout_height="566dp"
-            android:layout_marginStart="22dp"
-            android:layout_marginLeft="22dp"
-            android:layout_marginTop="157dp"
-            android:layout_marginEnd="22dp"
-            android:layout_marginRight="22dp"
-            android:background="@drawable/right_angle_border"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nestedScrollView2"
+            android:layout_width="0dp"
+            android:layout_height="324dp"
+            android:layout_gravity="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:listitem="@layout/list_item_reward" />
+            app:layout_constraintTop_toTopOf="@+id/mainView">
 
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rewardList"
+                android:layout_width="396dp"
+                android:layout_height="540dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="157dp"
+                android:layout_marginEnd="22dp"
+                android:layout_marginRight="22dp"
+                android:background="@drawable/right_angle_border"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:listitem="@layout/list_item_reward" />
+        </androidx.core.widget.NestedScrollView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
