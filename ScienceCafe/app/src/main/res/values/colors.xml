@@ -2,5 +2,20 @@
 <resources>
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
+
     <color name="colorAccent">#D81B60</color>
+    <color name="colorBackground">#1e5262</color>
+
+    <color name="colorTitleText">#362742</color>
+    <color name="colorSmallerTitle">#c5c9cf </color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorbar2">#898a56ab</color>
+    <color name="colorBackgroundTransition">#2c778f</color>
+    <!--
+        <color name="colorBackground">#153944</color>
+        <color name="colorPrimary">#008577</color>
+        <color name="colorPrimaryDark">#00574B</color>
+            <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#241333</color>s
+    -->
 </resources>

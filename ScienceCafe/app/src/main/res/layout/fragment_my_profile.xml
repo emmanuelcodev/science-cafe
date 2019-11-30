@@ -1,19 +1,246 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MyProfile">
-<!-- put whatever view group you want here instead of the FrameLayou -->
+xmlns:tools="http://schemas.android.com/tools" tools:context=".MyProfile">
 
-<FrameLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <TextView
+<!-- put whatever view group you want here instead of the FrameLayou -->
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:background="@color/colorBackground">
 
-</FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorBackground">
+            <!-- holds top part of user interface -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorBackgroundTransition"
+                >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/flayer">
+                    <ImageView
+                        android:layout_marginTop="50px"
+                        android:layout_marginBottom="50px"
+                        android:layout_width="300px"
+                        android:layout_height="300px"
+                        android:src="@drawable/ic_person_black_24dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:text="@string/user_name_name"
+                        android:textColor="@color/colorTitleText"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="normal"
+                        android:text="@string/sample_location"
+                        android:textColor="@color/colorSmallerTitle"
+                        android:layout_marginBottom="50px"
+                        android:layout_marginTop="5px"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="70px"
+                        android:paddingBottom="70px"
+                        android:gravity="center">
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <!-- edit button will come here -->
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingLeft="50px"
+                android:paddingTop="80px"
+                android:paddingBottom="80px"
+                android:background="@color/colorBackgroundTransition">
+
+                <!--
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text = "@string/random_num"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorWhite">
+
+                </TextView>-->
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text = "@string/random_num"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorWhite"/>
+            </LinearLayout>
+
+
+            <!-- scroll view to hold all user profile information-->
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="120px"
+                    android:paddingTop="50px">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold"
+                        android:text="@string/first_name_label"
+                        android:textSize="20sp"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="normal"
+                        android:text="@string/first_name"
+                        android:textSize="18sp"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginTop="12px"
+                        android:layout_marginBottom="12px"
+                        android:layout_marginRight="25px"
+                        android:background="@color/colorbar2">
+
+                    </View>
+
+
+                    <TextView
+                        android:paddingTop="50px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold"
+                        android:text="@string/last_name_label"
+                        android:textSize="20sp"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="normal"
+                        android:text="@string/last_name"
+                        android:textSize="18sp"
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginTop="12px"
+                        android:layout_marginBottom="12px"
+                        android:layout_marginRight="25px"
+                        android:background="@color/colorbar2">
+
+                    </View>
+
+                    <TextView
+                        android:paddingTop="50px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold"
+                        android:text="@string/user_name_label"
+                        android:textSize="20sp"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="normal"
+                        android:text="@string/user_name_name"
+                        android:textSize="18sp"
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginTop="12px"
+                        android:layout_marginBottom="12px"
+                        android:layout_marginRight="25px"
+                        android:background="@color/colorbar2">
+
+                    </View>
+                    <TextView
+                        android:paddingTop="50px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold"
+                        android:text="@string/email_label"
+                        android:textSize="20sp"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="normal"
+                        android:text="@string/email"
+                        android:textSize="18sp"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginTop="12px"
+                        android:layout_marginBottom="12px"
+                        android:layout_marginRight="25px"
+                        android:background="@color/colorbar2">
+
+                    </View>
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    
+    
+
 
 
 </layout>

@@ -11,4 +11,15 @@
     <string name="rewards_admin">Rewards</string>
     <string name="approve_admin">Approve</string>
     <string name="my_profile">My Profile</string>
+    <string name="user_name_name">Jhonny Cash</string>
+    <string name="sample_location">Los Angeles, CA</string>
+    <string name="random_num">94k</string>
+    <string name="first_name_label">First Name</string>
+    <string name="first_name">James</string>
+    <string name="last_name_label">Last Name</string>
+    <string name="last_name">Halper</string>
+    <string name="user_name_label">User Name</string>
+    <string name="user_name"></string>
+    <string name="email_label">Email</string>
+    <string name="email">james.thinks@sample.com</string>
 </resources>
