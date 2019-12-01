@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.adapter.RewardAdapter
 import com.example.model.Reward
+import androidx.navigation.findNavController
 import com.example.sciencecafe.databinding.FragmentRewardListBinding
 
 class RewardList : Fragment() {
@@ -27,7 +28,15 @@ class RewardList : Fragment() {
         this.adapter = RewardAdapter(rewardsList)
         this.binding.rewardList.adapter = adapter
 
-        return this.binding.root
+        binding.eventButton.setOnClickListener { view: View ->
+            view.findNavController().navigate(R.id.action_rewardList_to_eventList)
+        }
+
+        binding.newsButton.setOnClickListener { view: View ->
+            view.findNavController().navigate(R.id.action_rewardList_to_newsList)
+        }
+        return binding.root
+        //return inflater.inflate(R.layout.fragment_reward_list, container, false)
     }
 
     private fun createRewardsList(): MutableList<Reward> {

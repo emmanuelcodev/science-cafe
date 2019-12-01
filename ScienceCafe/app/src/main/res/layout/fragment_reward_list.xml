@@ -9,89 +9,36 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <LinearLayout
-            android:id="@+id/mainView"
+        <Button
+            android:id="@+id/event_button"
             android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:orientation="vertical"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            android:layout_height="wrap_content"
+            android:text="@string/event_button"
+            app:layout_constraintEnd_toStartOf="@+id/reward_button"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0">
+            app:layout_constraintTop_toTopOf="parent" />
 
-            <LinearLayout
-                android:id="@+id/topView"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_gravity="center_horizontal"
-                android:orientation="horizontal">
+        <Button
+            android:id="@+id/reward_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/reward_event"
+            app:layout_constraintEnd_toStartOf="@+id/news_button"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/event_button"
+            app:layout_constraintTop_toTopOf="parent" />
 
-                <ImageButton
-                    android:id="@+id/backButton"
-                    android:layout_width="50dp"
-                    android:layout_height="match_parent"
-                    android:adjustViewBounds="true"
-                    android:contentDescription="@string/back_button_text"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/back_arrow" />
-
-                <TextView
-                    android:id="@+id/appTitle"
-                    style="@style/AppTitle"
-                    android:layout_width="127dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginStart="105dp"
-                    android:layout_marginLeft="105dp"
-                    android:text="@string/app_name" />
-
-                <Button
-                    android:id="@+id/signButton"
-                    style="@style/TopButton"
-                    android:layout_width="100dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginStart="35dp"
-                    android:layout_marginLeft="35dp"
-                    android:text="@string/sign_up_text" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/buttons"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_gravity="center_horizontal"
-                android:orientation="horizontal">
-
-                <Button
-                    android:id="@+id/eventButton"
-                    style="@style/MidButton"
-                    android:layout_width="140dp"
-                    android:layout_height="match_parent"
-                    android:text="@string/events_admin" />
-
-                <Button
-                    android:id="@+id/rewardButton"
-                    style="@style/MidButton"
-                    android:layout_width="140dp"
-                    android:layout_height="match_parent"
-                    android:text="@string/rewards_admin" />
-
-                <Button
-                    android:id="@+id/newsButton"
-                    style="@style/MidButton"
-                    android:layout_width="140dp"
-                    android:layout_height="match_parent"
-                    android:text="@string/news_admin" />
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/titleText"
-                style="@style/PageTitle"
-                android:layout_width="match_parent"
-                android:layout_height="52dp"
-                android:text="@string/rewards_admin" />
-        </LinearLayout>
+        <Button
+            android:id="@+id/news_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/go_to_news"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/reward_button"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.core.widget.NestedScrollView
             android:id="@+id/nestedScrollView2"
