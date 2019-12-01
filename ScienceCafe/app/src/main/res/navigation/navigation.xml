@@ -49,7 +49,7 @@
         android:id="@+id/newsList"
         android:name="com.example.sciencecafe.NewsList"
         android:label="fragment_news_list"
-        tools:layout="@layout/fragment_news_list" >
+        tools:layout="@layout/fragment_news_list">
         <action
             android:id="@+id/action_newsList_to_rewardList"
             app:destination="@id/rewardList" />
@@ -76,7 +76,7 @@
         android:id="@+id/rewardList"
         android:name="com.example.sciencecafe.RewardList"
         android:label="fragment_reward_list"
-        tools:layout="@layout/fragment_reward_list" >
+        tools:layout="@layout/fragment_reward_list">
         <action
             android:id="@+id/action_rewardList_to_newsList"
             app:destination="@id/newsList" />
@@ -89,5 +89,4 @@
         android:name="com.example.sciencecafe.NewsDetail"
         android:label="fragment_news_detail"
         tools:layout="@layout/fragment_news_detail" />
-
 </navigation>
