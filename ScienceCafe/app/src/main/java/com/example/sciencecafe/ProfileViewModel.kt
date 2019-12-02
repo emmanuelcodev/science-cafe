@@ -5,13 +5,13 @@ import androidx.lifecycle.ViewModel
 
 class ProfileViewModel : ViewModel() {
     init {
-        Log.i("GameViewModel", "GameViewModel created!")
+        Log.i("ProfileiewModel", "ProfileViewModel created!")
     }
 
 
 
     override fun onCleared() {
         super.onCleared()
-        Log.i("GameViewModel", "GameViewModel destroyed!")
+        Log.i("ProfileViewModel", "ProfileViewModel destroyed!")
     }
 }
