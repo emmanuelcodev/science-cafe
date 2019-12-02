@@ -22,4 +22,22 @@
     <string name="user_name"></string>
     <string name="email_label">Email</string>
     <string name="email">james.thinks@sample.com</string>
+    <string name="edit_button_title">Edit</string>
+
+
+
+
+    <string name="news_detail_title_view">News Title</string>
+    <string name="event_button">Event</string>
+    <string name="reward_event">Reward</string>
+
+    <string name="go_to_news">News</string>
+
+    <!-- Emmanuel -->
+    <string name="approved_title">Approved</string>
+    <string name="pending_title">Pending</string>
+    <string name="rejected_title">Rejected</string>
+    <string name="reward_number_title">Reward 1</string>
+    <string name="add_reward_title">Add Reward</string>
+    <string name="delete_button_title">Delete</string>
 </resources>
