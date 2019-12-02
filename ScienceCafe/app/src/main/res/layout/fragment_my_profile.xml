@@ -75,6 +75,7 @@ xmlns:tools="http://schemas.android.com/tools" tools:context=".MyProfile">
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:gravity="center"
+
                 android:paddingLeft="50px"
                 android:paddingTop="80px"
                 android:paddingBottom="80px"
@@ -93,7 +94,7 @@ xmlns:tools="http://schemas.android.com/tools" tools:context=".MyProfile">
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text = "@string/random_num"
+                    android:text = "@string/edit_button_title"
                     android:textSize="18sp"
                     android:textStyle="normal"
                     android:textColor="@color/colorWhite"/>
