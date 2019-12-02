@@ -11,6 +11,8 @@
     <color name="colorWhite">#ffffff</color>
     <color name="colorbar2">#898a56ab</color>
     <color name="colorBackgroundTransition">#2c778f</color>
+    <!-- Jan -->
+    <color name="black_text">#000000</color>
     <!--
         <color name="colorBackground">#153944</color>
         <color name="colorPrimary">#008577</color>
