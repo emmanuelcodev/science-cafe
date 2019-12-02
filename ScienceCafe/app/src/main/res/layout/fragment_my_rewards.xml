@@ -8,16 +8,18 @@ tools:context=".MyRewards">
     <!-- put whatever view group you want here instead of the FrameLayou -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground">
 
 
         <TextView
+
             android:id="@+id/my_rewards_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="@string/my_rewards"
-            android:textColor="@color/black_text"
+            android:textColor="@color/colorWhite"
             android:textSize="26sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -28,6 +30,7 @@ tools:context=".MyRewards">
             android:id="@+id/add_award"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
             android:text="@string/add_reward_title"
             android:layout_marginBottom="10dp"
             app:layout_constraintBottom_toBottomOf="@+id/my_rewards_id"
@@ -43,6 +46,7 @@ tools:context=".MyRewards">
             android:id="@+id/event_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
             android:text="@string/event_button"
             app:layout_constraintEnd_toStartOf="@+id/reward_button"
             app:layout_constraintHorizontal_bias="0.5"
@@ -61,6 +65,7 @@ tools:context=".MyRewards">
 
         <Button
             android:id="@+id/news_button"
+            android:layout_marginRight="5dp"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/go_to_news"
@@ -75,6 +80,7 @@ tools:context=".MyRewards">
         <Button
             android:id="@+id/approved_id"
             android:layout_width="0dp"
+            android:layout_marginLeft="5dp"
             android:layout_height="wrap_content"
             android:text="@string/approved_title"
             app:layout_constraintEnd_toStartOf="@+id/reward_button"
@@ -100,6 +106,7 @@ tools:context=".MyRewards">
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/rejected_title"
+            android:layout_marginRight="5dp"
             app:layout_constraintBottom_toBottomOf="@+id/pending_id"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
@@ -109,13 +116,13 @@ tools:context=".MyRewards">
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/my_rewards_list"
             android:layout_width="400dp"
-            android:layout_height="550dp"
-            android:layout_marginLeft="4dp"
+            android:layout_height="520dp"
+            android:layout_marginLeft="7dp"
             android:layout_marginTop="60dp"
-            android:layout_marginRight="4dp"
-            android:layout_marginBottom="4dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="10dp"
             android:clipToPadding="false"
-            android:padding="6dp"
+
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
