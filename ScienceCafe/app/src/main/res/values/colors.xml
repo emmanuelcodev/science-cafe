@@ -5,6 +5,7 @@
     <color name="colorAccent">#D81B60</color>
 
 
+
     <!-- Emmanuel -->
 
     <color name="colorBackground">#1e5262</color>
@@ -18,13 +19,15 @@
     <color name="colorBackgroundTransition3">#2086A6</color>
     <color name="colorBackgroundTransition4">#287084</color>
 
-    <!-- Jan -->
+
+
+	<!-- Alex -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="buttonPressed">#B1BBC9</color>
+    <color name="blueButton">#3480EB</color>
+
+	<!-- Jan -->
     <color name="black_text">#000000</color>
-    <!--
-        <color name="colorBackground">#153944</color>
-        <color name="colorPrimary">#008577</color>
-        <color name="colorPrimaryDark">#00574B</color>
-            <color name="colorPrimary">#ffffff</color>
-    <color name="colorPrimaryDark">#241333</color>s
-    -->
+
 </resources>
