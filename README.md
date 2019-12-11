@@ -5,12 +5,12 @@ Authors: [Yi Chen](https://github.com/chenyii426) | [Emmanuel Cocom](https://git
 
 
 ## About Our App
-Sci Cafe is an User Driven Application. Users Create "Events" and Rewards that the community can attend and obtain. 
+Sci Cafe allows users to create and organize academic and social events. 
+
 
 ## Why did we build it ?
-From our collective experience we believe students are often unaware about the activities and oppurtunites available to them on campus. From club meetings, to carreer fairs, fundraisers, and even talks by special guests information does not seem to reach all students. 
+Students are not always aware about the activities and oppurtunites available to them on or near campus. Such events include club meetings, carreer fairs, fundraisers, and other social gatherings. Our hope is that Sci Cafe can alleviate this problem and provide a more campus specific information hub for CSULA students.
 
-I.E ACM and Coding Club both believed they were the only club related to programming on campus. 
 
 
 ## Implementation
