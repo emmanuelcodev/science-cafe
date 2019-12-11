@@ -11,6 +11,7 @@ I.E ACM and Coding Club both believed they were the only club related to program
 
 ## Demo
 Video: Link - Demonstration : 1:30 minutes
+<br/>
 <a href="https://www.youtube.com/watch?v=05iNw6LFs10" target="_blank"><img src="https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/Website.png" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
