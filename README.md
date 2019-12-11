@@ -30,6 +30,7 @@ AWS - API Calls
 QR Code - Needed
 
 Wire Frames
+![Alt Text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/wire_frames.gif)
 
 
 
