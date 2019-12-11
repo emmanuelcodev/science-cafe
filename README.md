@@ -11,6 +11,20 @@ Sci Cafe allows users to create and organize academic and social events.
 ## Why did we build it ?
 Students are not always aware about the activities and oppurtunites available to them on or near campus. Such events include club meetings, carreer fairs, fundraisers, and other social gatherings. Our hope is that Sci Cafe can alleviate this problem and provide a more campus specific information hub for CSULA students.
 
+## How Do users Interact with the App?
+
+#### 2. Community Related Activities - via Menu 1
+  - News Available
+  - Events Available  
+    - Sign Up for Events
+  - Rewards Available
+    -How does this work?
+
+#### 3. User Specific Activities - via  Menu2 (Nav Drawer)
+  - Events
+  - Rewards
+  - Profile
+  - QR Code
 
 
 ## Implementation
@@ -35,50 +49,3 @@ Video: 1:30 minutes
 <br/>
 <a href="https://www.youtube.com/watch?v=05iNw6LFs10" target="_blank"><img src="https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/Website.png" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-
-
-
-
-
-
-
-
-
-Images :
-![Home Page Image](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/Website.png "Logo Home Page Image")
-
-
-
-#### How 
-
-#### 2. Community Related Activities - via Menu 1
-  - News Available
-  - Events Available  
-    - Sign Up for Events
-  - Rewards Available
-    -How does this work?
-
-#### 3. User Specific Activities - via  Menu2 (Nav Drawer)
-  - Events
-  - Rewards
-  - Profile
-  - QR Code
-
-QR Code - Needed
-
-
-
-##
-
-
-
-<summary><h3 style="display: inline;">The Website</h3>  </summary>
-
-
-
-Login - Token Authenticated
-
-
-![Alt Text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/website_gif.gif)
-
-![alt text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/Api_Calls.png "Logo Api Documentation 1")
