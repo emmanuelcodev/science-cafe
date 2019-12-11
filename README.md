@@ -20,13 +20,16 @@ Video: Link - Demonstration : 3 minutes
 ## Implementation - ost intersting technical parts about it
 
 The Website 
+![Home Page Image](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/Website.png "Logo Home Page Image")
+
+
 <details><summary><h3>The Website</h3>  </summary>
 this is hidden
 </details>
 Login - Token Authenticated
 
 AWS - API Calls
-
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 QR Code - Needed
 
 Wire Frames
