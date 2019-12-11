@@ -29,7 +29,7 @@ this is hidden
 Login - Token Authenticated
 
 AWS - API Calls
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/Api_Calls.png "Logo Api Documentation 1")
 QR Code - Needed
 
 Wire Frames
