@@ -10,25 +10,30 @@ From our collective experience we believe students are often unaware about the a
 I.E ACM and Coding Club both believed they were the only club related to programming on campus. 
 
 ## Demo
-Video: Link - Demonstration : 3 minutes
+Video: Link - Demonstration : 1:30 minutes
 <a href="https://www.youtube.com/watch?v=05iNw6LFs10" target="_blank"><img src="https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/Website.png" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
-## Implementation - ost intersting technical parts about it
+## Implementation - Most Technically Interesting Parts
 
 The Website 
+
+
+<details>
+
+![Alt Text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/website_gif.gif)
+
+
+</details>
+Login - Token Authenticated
+
 
 ![Alt Text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/website_gif.gif)
 
 
 
-
-
-<details><summary><h3 style="display: inline;">The Website</h3>  </summary>
-this is hidden
-</details>
-Login - Token Authenticated
+<summary><h3 style="display: inline;">The Website</h3>  </summary>
 
 AWS - API Calls
 ![Alt Text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/api_calls_doc.gif)
