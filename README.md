@@ -1,6 +1,6 @@
-# science-cafe
-
 # [Sci Cafe](https://sci-cafe.com/home)
+
+
 
 
 ## About Our App
@@ -23,7 +23,6 @@ The Website
 
 ![Alt Text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/website_gif.gif)
 
-![Alt Text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/api_calls_doc.gif)
 
 
 
@@ -34,7 +33,8 @@ this is hidden
 Login - Token Authenticated
 
 AWS - API Calls
-![alt text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/Api_Calls.png "Logo Api Documentation 1")
+![Alt Text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/api_calls_doc.gif)
+
 QR Code - Needed
 
 Wire Frames
@@ -57,7 +57,7 @@ Wire Frames
 
 
 Authors: [Yi Chen](https://github.com/chenyii426) | [Emmanuel Cocom](https://github.com/emmanuelcodev) | [Yi Wang](https://github.com/superhotdogzz) | [Jan Bautista](https://github.com/janB003) | [Alex Horjase](https://github.com/AHorejsi) 
-
+![alt text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/Api_Calls.png "Logo Api Documentation 1")
 
 
 Images :
