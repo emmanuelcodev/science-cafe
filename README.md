@@ -8,7 +8,7 @@ Authors: [Yi Chen](https://github.com/chenyii426) | [Emmanuel Cocom](https://git
 Sci Cafe allows users to create and organize academic and social events. 
 
 
-## The Problem and Our Solution ?
+## Why did we build it ?
 Students are not always aware about the activities and oppurtunites available to them on or near campus. Such events include club meetings, carreer fairs, fundraisers, and other social gatherings. Our hope is that Sci Cafe can alleviate this problem and provide a more campus specific information hub for CSULA students.
 
 
