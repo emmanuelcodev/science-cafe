@@ -20,7 +20,6 @@ Video: Link - Demonstration : 3 minutes
 ## Implementation - ost intersting technical parts about it
 
 The Website 
-![Home Page Image](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/Website.png "Logo Home Page Image")
 
 ![Alt Text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/website_gif.gif)
 
@@ -58,3 +57,8 @@ Wire Frames
 
 
 Authors: [Yi Chen](https://github.com/chenyii426) | [Emmanuel Cocom](https://github.com/emmanuelcodev) | [Yi Wang](https://github.com/superhotdogzz) | [Jan Bautista](https://github.com/janB003) | [Alex Horjase](https://github.com/AHorejsi) 
+
+
+
+Images :
+![Home Page Image](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/Website.png "Logo Home Page Image")
