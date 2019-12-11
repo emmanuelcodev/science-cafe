@@ -12,20 +12,26 @@ Sci Cafe allows users to create and organize academic and social events.
 Students are not always aware about the activities and oppurtunites available to them on or near campus. Such events include club meetings, carreer fairs, fundraisers, and other social gatherings. Our hope is that Sci Cafe can alleviate this problem and provide a more campus specific information hub for CSULA students.
 
 ## How Do users Interact with the App?
-
 ### Answer: Two Menus 
-#### 2. Community Related Activities - via 1st Menu 1
-  - News Available
-  - Events Available  
-    - Sign Up for Events
+
+#### 2. Community Related Activities - 1st Menu
+  - News
+  - Events  
+    - Create or Sign up
   - Rewards Available
-    -How does this work?
+    - Create or Collect
 
 #### 3. User Specific Activities - via 2nd Menu 
   - Events
+    - Look at any events you as a user are hosting
   - Rewards
+    - look at rewards you have earned
+    
   - Profile
+    - View or change settings i.e. Name, Email etc...
+    
   - QR Code
+    - Can be used to check In users at events
 
 
 ## Implementation
