@@ -13,14 +13,15 @@ Students are not always aware about the activities and oppurtunites available to
 
 ## How Do users Interact with the App?
 
-#### 2. Community Related Activities - via Menu 1
+### Answer: Two Menus 
+#### 2. Community Related Activities - via 1st Menu 1
   - News Available
   - Events Available  
     - Sign Up for Events
   - Rewards Available
     -How does this work?
 
-#### 3. User Specific Activities - via  Menu2 (Nav Drawer)
+#### 3. User Specific Activities - via 2nd Menu 
   - Events
   - Rewards
   - Profile
