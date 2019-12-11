@@ -1,5 +1,8 @@
 # [Sci Cafe](https://sci-cafe.com/home)
 
+Authors: [Yi Chen](https://github.com/chenyii426) | [Emmanuel Cocom](https://github.com/emmanuelcodev) | [Yi Wang](https://github.com/superhotdogzz) | [Jan Bautista](https://github.com/janB003) | [Alex Horjase](https://github.com/AHorejsi) 
+
+
 
 ## About Our App
 Sci Cafe is an User Driven Application. Users Create "Events" and Rewards that the community can attend and obtain. 
@@ -12,12 +15,12 @@ I.E ACM and Coding Club both believed they were the only club related to program
 
 ## Implementation
 
-#### The Website 
+#### Wire Frames
 
 
 ![Alt Text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/wire_frames.gif)
 
-#### Wire Frames
+#### The Website 
 
 ![Alt Text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/website_gif.gif)
 
@@ -36,9 +39,6 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
 
-
-Authors: [Yi Chen](https://github.com/chenyii426) | [Emmanuel Cocom](https://github.com/emmanuelcodev) | [Yi Wang](https://github.com/superhotdogzz) | [Jan Bautista](https://github.com/janB003) | [Alex Horjase](https://github.com/AHorejsi) 
-![alt text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/Api_Calls.png "Logo Api Documentation 1")
 
 
 
@@ -81,3 +81,4 @@ Login - Token Authenticated
 
 ![Alt Text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/website_gif.gif)
 
+![alt text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/Api_Calls.png "Logo Api Documentation 1")
