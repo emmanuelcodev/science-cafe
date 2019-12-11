@@ -20,23 +20,10 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 #### The Website 
 
-<details><summary></summary>![Alt Text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/website_gif.gif)</details>
-
-
-
-Login - Token Authenticated
-
-
 ![Alt Text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/website_gif.gif)
-
-
-
-<summary><h3 style="display: inline;">The Website</h3>  </summary>
 
 AWS - API Calls
 ![Alt Text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/api_calls_doc.gif)
-
-QR Code - Needed
 
 Wire Frames
 ![Alt Text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/wire_frames.gif)
@@ -57,9 +44,28 @@ Wire Frames
   - QR Code
 
 
+
 Authors: [Yi Chen](https://github.com/chenyii426) | [Emmanuel Cocom](https://github.com/emmanuelcodev) | [Yi Wang](https://github.com/superhotdogzz) | [Jan Bautista](https://github.com/janB003) | [Alex Horjase](https://github.com/AHorejsi) 
 ![alt text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/Api_Calls.png "Logo Api Documentation 1")
 
 
 Images :
 ![Home Page Image](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/Website.png "Logo Home Page Image")
+
+QR Code - Needed
+
+
+
+##
+
+
+
+<summary><h3 style="display: inline;">The Website</h3>  </summary>
+
+
+
+Login - Token Authenticated
+
+
+![Alt Text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/website_gif.gif)
+
