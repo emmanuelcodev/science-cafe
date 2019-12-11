@@ -14,14 +14,15 @@ I.E ACM and Coding Club both believed they were the only club related to program
 
 #### The Website 
 
-Wire Frames
+
 ![Alt Text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/wire_frames.gif)
 
+#### Wire Frames
 
 ![Alt Text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/website_gif.gif)
 
 
-AWS - API Calls
+#### AWS - API Calls
 ![Alt Text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/api_calls_doc.gif)
 
 
