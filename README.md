@@ -18,15 +18,12 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ## Implementation - Most Technically Interesting Parts
 
-The Website 
+#### The Website 
+
+<details>![Alt Text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/website_gif.gif)</details>
 
 
-<details>
 
-![Alt Text](https://github.com/android-dev-team-11/science-cafe/blob/master/meta_resources/website_gif.gif)
-
-
-</details>
 Login - Token Authenticated
 
 
